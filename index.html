@@ -1,52 +1,169 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>JS-Montreal</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="main.css">
-    </head>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS-Montreal</title>
 
-    <body>
-        <div class="container">
-            <div class="main">
-                <img src="logo-crop-1000x500.png" class="logo" />
+    <meta name="description" content="Join the free JS Montreal Meetup! Share and learn about JavaScript & TypeScript, present projects, and connect with fellow developers in the community.">
+    <meta property="og:title" content="JS-Montreal">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Join the free JS Montreal Meetup! Share and learn about JavaScript & TypeScript, present projects, and connect with fellow developers in the community.">
+    <meta property="og:image" content="https://jsmontreal.com/images/share.png">
+    <meta property="og:url" content="https://jsmontreal.com">
+    <meta name="twitter:card" content="summary_large_image">
 
-                <div class="info">
-                    <a class="meetup-link" href="https://www.meetup.com/js-montreal/">
-                        <span class="join-us">Join us on </span>
-                        <img class="meetup-logo" src="meetup-logo.png" />
-                    </a>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+        
+    <style>
+      html {
+        font-size: 16px;
+      }
 
-                    <div class="time-place">
-                        <div class="when">
-                            When: 2nd Tuesday of every month @ 7pm
-                        </div>
-                        <div class="where">
-                            Where: 1080 Beaver Hall Hl Suite 200, 2nd floor
-                        </div>
-                    </div>
-                </div>
+      body {
+        background-color: #F7DF1E;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        font-family: "Domine", sans-serif;
+        font-size: 1.5rem;
+      }
 
+      .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: stretch;
+        align-content: stretch;
+        height: 100vh;
+      }
+
+      .main {
+        width: 100%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+      }
+
+      .logo {
+        width: 60%;
+        max-width: 25rem;
+        margin: 0 auto;
+        display: block;
+        border-bottom: .0625rem solid black;
+        height: auto;
+      }
+
+      .info {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 1.5rem;
+      }
+
+      .when, .where, .present {
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .present {
+        font-size: 1rem;
+      }
+
+      .present a {
+        color: currentColor;
+        text-decoration: underline;
+      }
+
+      .present a:hover {
+        text-decoration: none;
+      }
+
+      .meetup-link {
+        text-align: center;
+        display: flex;
+        text-decoration: none;
+        align-items: center;
+        padding: 0.5rem;
+        color: currentColor;
+      }
+
+      .meetup-link:hover .join-us {
+        text-decoration: none;
+      }
+
+      .meetup-logo {
+        width: 5rem;
+      }
+
+      .join-us {
+        display: block;
+        padding-right: 0.3rem;
+        text-decoration: underline;
+      }
+
+      .map-container {
+        display: flex;
+        width: 100%;
+        height: 40%;
+        align-items: stretch;
+      }
+
+      .map {
+        width: 100%;
+        margin: 0;
+        border: 0;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="main">
+        <img src="images/logo.png" width="400" height="200" class="logo" alt="JS-Montreal" />
+
+        <div class="info">
+          <a class="meetup-link" href="https://www.meetup.com/js-montreal/">
+            <span class="join-us">Join us on </span>
+            <img class="meetup-logo" src="images/meetup-logo.png" width="80" height="32" alt="Meetup" />
+          </a>
+
+          <div class="time-place">
+            <div class="when">
+              When: 2nd Tuesday of every month @ 7pm
             </div>
-
-
-            <div class="map-container">
-                <iframe
-                    class="map"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5592.767102685664!2d-73.56806292315389!3d45.50235707107465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b0db4e17add%3A0x46d896aeb6bc83aa!2sUpgrade%2C%20Inc!5e0!3m2!1sen!2sca!4v1739802620753!5m2!1sen!2sca"
-                    width="100%"
-                    style="border:0;"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+            <div class="where">
+              Where: 1080 Beaver Hall Hl Suite 200, 2nd floor
             </div>
-
+            <div class="present">
+              If you'd like to present at the meetup, reach us at <a href="mailto:contact@js-montreal.com">contact@js-montreal.com</a>.
+            </div>
+          </div>
         </div>
 
-    </body>
+      </div>
+
+      <div class="map-container">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5592.767102685664!2d-73.56806292315389!3d45.50235707107465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc91b0db4e17add%3A0x46d896aeb6bc83aa!2sUpgrade%2C%20Inc!5e0!3m2!1sen!2sca!4v1739802620753!5m2!1sen!2sca"
+          width="100%"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </body>
 </html>
