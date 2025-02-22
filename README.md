@@ -1,1 +1,1 @@
-# JS-Montreal Home
+# Home page of JS-Montreal
