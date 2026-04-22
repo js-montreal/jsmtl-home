@@ -23,7 +23,6 @@ body {
 
 .main {
   width: 50%;
-  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,6 +55,9 @@ body {
 
 .present {
   font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .present a {
@@ -65,6 +67,17 @@ body {
 
 .present a:hover {
   text-decoration: none;
+}
+
+.present p {
+  max-width: 80%;
+  margin: 1rem auto;
+}
+
+.present-details {
+  text-align: left;
+  margin: auto;
+  list-style-type: '→  ';
 }
 
 .meetup-link {
@@ -93,7 +106,6 @@ body {
 .map-container {
   display: flex;
   width: 50%;
-  height: 100%;
   align-items: stretch;
 }
 
@@ -101,20 +113,19 @@ body {
   width: 100%;
   margin: 0;
   border: 0;
+  height: 100%;
 }
 
 
 @media all and (max-width: 700px) {
     .main {
         width: 100%;
-        height: 60%;
         justify-content: space-evenly;
         gap: 0;
     }
 
     .map-container {
         width: 100%;
-        height: 40%;
     }
 
 }
