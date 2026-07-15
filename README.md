@@ -1,4 +1,5 @@
-# Home page of JS-Montreal Community
+# Home page of the JS-Montreal user group
 
 Official website: https://jsmontreal.com
-Our Meetup.com group page: https://www.meetup.com/js-montreal/
+
+Our meetup.com group page: https://www.meetup.com/js-montreal/
