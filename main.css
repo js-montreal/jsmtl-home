@@ -121,6 +121,17 @@ body {
   line-height: 1.5;
 }
 
+.archive-link {
+  text-align: center;
+  font-size: 0.9rem;
+  color: currentColor;
+  text-decoration: underline;
+}
+
+.archive-link:hover {
+  text-decoration: none;
+}
+
 .next-meetup {
   margin: 0 0 1rem 0;
   text-align: center;

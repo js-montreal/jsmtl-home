@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Meetup Archive - JS-Montreal</title>
+
+    <meta name="description" content="Browse the full archive of past JS Montreal meetups, talks and speakers.">
+    <meta property="og:title" content="Meetup Archive - JS-Montreal">
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="Browse the full archive of past JS Montreal meetups, talks and speakers.">
+    <meta property="og:image" content="https://jsmontreal.com/images/share.png">
+    <meta property="og:url" content="https://jsmontreal.com/archive.html">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="archive.css">
+    <script src="meetups.js" defer></script>
+    <script src="archive.js" defer></script>
+  </head>
+
+  <body class="archive-body">
+    <div class="archive-page">
+
+      <header class="archive-header">
+        <a href="index.html" class="archive-logo-link">
+          <img src="images/logo.png" width="400" height="200" class="logo" alt="JS-Montreal" />
+        </a>
+        <h1 class="archive-title">The Archive</h1>
+        <p class="archive-subtitle">Every talk, every speaker, since the very first meetup.</p>
+      </header>
+
+      <main id="archive-list" class="archive-list" aria-live="polite">
+        <p class="archive-loading">Loading archive&hellip;</p>
+      </main>
+
+    </div>
+  </body>
+</html>
