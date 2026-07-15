@@ -12,4 +12,7 @@ if I want them included in commits.
 * Write code yourself as much as possible. If you feel that a feature is sufficiently complex to warrant
 using a library or framework, ask for my permission first and explain why the lib/framework would be a better
 choice.
-* Always check your work in a browser, especially if the changes are visual.
+* Always check your work in a browser, especially if the changes are visual. Don't forget to check how it looks in a mobile-sized viewport!
+* Write the minimal amount of code necessary to achieve your goal. Think very carefully before modifying
+unrelated code. Changes that make new (and old) code cleaner, better, more readable are ok, but refactoring
+or cleaning up just because is NOT ok.
