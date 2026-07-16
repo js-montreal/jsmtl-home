@@ -110,9 +110,7 @@ const MEETUPS_DATA = [{
       "name": "Vladimir Sedach",
       "url": "http://carcaddar.blogspot.com/",
       "synopsis": "Vladimir will demonstrate how to use this technique to compile search queries.",
-      "links": [
-
-      ]
+      "links": []
    }]
 }, {
    "num": 5,
@@ -134,9 +132,7 @@ const MEETUPS_DATA = [{
       "name": "Laurent Villeneuve",
       "url": "http://github.com/mazesoul",
       "synopsis": "A machine-gun delivered overview of functional <a title=\"AIIIIYA\" href=\"http://en.wikipedia.org/wiki/Jutsu\">jutsu</a>.",
-      "links": [
-
-      ]
+      "links": []
    }]
 }, {
    "num": 6,
@@ -383,9 +379,7 @@ const MEETUPS_DATA = [{
          "url": "http://js-montreal.org/",
          "title": "js-montreal.org"
       }]
-   }
-
-   ]
+   }]
 }, {
    "num": 15,
    "title": "JavaScript in your pocket",
@@ -718,7 +712,7 @@ const MEETUPS_DATA = [{
          "url": "http://angularjs.org/",
          "title": "AngularJS"
       }]
-   },{
+   }, {
       "title": "jQuery Promises en 15 minutes",
       "email": "maximeb@gmail.com",
       "name": "Maxime Bergeron",
@@ -743,14 +737,14 @@ const MEETUPS_DATA = [{
       "links": [{
          "url": "http://visionmedia.github.com/mocha/",
          "title": "Mocha"
-      },{
+      }, {
          "url": "http://pivotal.github.com/jasmine/",
          "title": "Jasmine"
       }, {
          "url": "http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata",
          "title": "The Prime Factors kata"
       }]
-   },{
+   }, {
       "title": "Voxplode",
       "email": "nison.mael@gmail.com",
       "name": "Maël Nison",
@@ -759,7 +753,7 @@ const MEETUPS_DATA = [{
       "links": [{
          "url": "https://github.com/arcanis/voxplode",
          "title": "Voxplode"
-      },{
+      }, {
          "url": "http://arcanis.github.io/swat/",
          "title": "SWAT Game Engine"
       }]
@@ -779,7 +773,7 @@ const MEETUPS_DATA = [{
          "url": "http://karma-runner.github.io/0.8/index.html",
          "title": "Karma"
       }]
-   },{
+   }, {
       "title": "Hoodie",
       "email": "ben.nevile@gmail.com",
       "name": "Ben Neville",
@@ -805,7 +799,7 @@ const MEETUPS_DATA = [{
          "url": "http://www.slideshare.net/cdugas1/presenattion-mobile-22864963",
          "title": "Slides"
       }]
-   },{
+   }, {
       "title": "Grunt.js",
       "email": "rowanu@gmail.com",
       "name": "Rowan Udell",
@@ -965,13 +959,13 @@ const MEETUPS_DATA = [{
       "links": [{
          "url": "https://brainbrowser.cbrain.mcgill.ca/",
          "title": "BrainBrowser"
-         }, {
+      }, {
          "url": "http://www.tareksherif.ca/",
          "title": "Personal Website"
-         }, {
+      }, {
          "url": "http://cbrain.mcgill.ca/",
          "title": "CBRAIN"
-         }]
+      }]
    }, {
       "title": "jsOrrery - WebGL Solar System",
       "email": "m.vezina@la-grange.ca",
@@ -1023,7 +1017,6 @@ const MEETUPS_DATA = [{
    "num": 38,
    "title": "Winter",
    "on": "20140211",
-   "singleSession": true,
    "blurb": "This month we have a single session special event. etelesolv is providing the pizza and beer and Steve will bring food for thought on front-end app architecture.",
    "specialevent": "etelesolv-beer.html",
    "speakers": [{
@@ -1035,16 +1028,15 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Addy Osmany on front-end architecture",
          "url": "http://addyosmani.com/largescalejavascript/"
-       }, {
+      }, {
          "title": "Excellent e-book on developing front-end Backbone apps.",
          "url": "http://addyosmani.github.io/backbone-fundamentals/"
-       }]
+      }]
    }]
 }, {
    "num": 39,
    "title": "Winter",
    "on": "20140311",
-   "singleSession": false,
    "blurb": "This month, we have cats! and Functional Reactive Bindings, which sadly have no cats involved, but are very interesting nonetheless.",
    "specialevent": "eightysix-beer.html",
    "speakers": [{
@@ -1056,10 +1048,10 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Github Repo",
          "url": "https://github.com/notwaldorf/cat-dns"
-       }, {
+      }, {
          "title": "Blog Post",
          "url": "http://notwaldorf.github.io/posts/go-cat-dns-go/"
-       }]
+      }]
    }, {
       "title": "D3 & FRB: A case study in binding and editable DataViz",
       "email": "gina.c.cook@gmail.com",
@@ -1069,16 +1061,15 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Github Repo",
          "url": "https://github.com/montagejs/frb"
-       }, {
+      }, {
          "title": "Blog",
          "url": "http://gina.ilanguage.ca/"
-       }]
+      }]
    }]
 }, {
    "num": 39,
    "title": "Spring",
    "on": "20140408",
-   "singleSession": true,
    "blurb": "Spring brings us yet another snow storm and some beautiful streams and tools to keep our minds off the weather.",
    "specialevent": "turbulent-beer.html",
    "speakers": [{
@@ -1090,16 +1081,15 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "NPM Module",
          "url": "https://github.com/plotly/plotly-nodejs"
-       }, {
+      }, {
          "title": "Streaming API",
          "url": "https://plot.ly/api/streaming/"
-       }]
+      }]
    }]
 }, {
    "num": 40,
    "title": "Spring",
    "on": "20140513",
-   "singleSession": false,
    "blurb": "This month, Kasper shows us some tooling tricks, and Rodric demystifies Angular.",
    "specialevent": false,
    "speakers": [{
@@ -1111,10 +1101,10 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Kasper's Github",
          "url": "https://github.com/kasperisager"
-       }, {
+      }, {
          "title": "Book of Modern Frontend Tooling",
          "url": "http://tooling.github.io/book-of-modern-frontend-tooling/"
-       }]
+      }]
    }, {
       "title": "Let's Talk About Angular",
       "email": "rody@rodyhaddad.com",
@@ -1124,13 +1114,12 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Personal Website",
          "url": "http://rodyhaddad.com"
-       }]
+      }]
    }]
 }, {
    "num": 41,
    "title": "Summer",
    "on": "20140610",
-   "singleSession": false,
    "blurb": "Summer is in the air, and there's nothing like a nice cold serving of Javascript to keep you cool.",
    "specialevent": false,
    "speakers": [{
@@ -1142,20 +1131,19 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Personal Website",
          "url": "https://vickev.com"
-       }]
+      }]
    }, {
       "title": "Pourquoi et comment les Web Components?",
       "email": "sacha.lepretre@gmail.com",
       "name": "Sacha Leprêtre",
       "url": "https://twitter.com/sachalepretre",
-     "synopsis": "Les Web Components (W3C) sont très prometteurs pour le web,les librairies/polyfills telle que Polymer, X-tag/ Brick nous permettent d'en bénéficier dés à présent.<br><br>Mais qui a-t-il derrière ces librairies?<br><br>Afin de nous éclairer sur des éventuels choix technologiques, Sacha va nous présenter les stratégies utilisées par celles-ci et nous donner un rapide aperçu sur Lïghtly la librairie qu'il a conçu.",
+      "synopsis": "Les Web Components (W3C) sont très prometteurs pour le web,les librairies/polyfills telle que Polymer, X-tag/ Brick nous permettent d'en bénéficier dés à présent.<br><br>Mais qui a-t-il derrière ces librairies?<br><br>Afin de nous éclairer sur des éventuels choix technologiques, Sacha va nous présenter les stratégies utilisées par celles-ci et nous donner un rapide aperçu sur Lïghtly la librairie qu'il a conçu.",
       "links": []
    }]
 }, {
    "num": 42,
    "title": "Summer",
    "on": "20140708",
-   "singleSession": false,
    "blurb": "Summer is in the air, and there's nothing like a nice cold serving of Javascript to keep you cool.",
    "specialevent": false,
    "speakers": [{
@@ -1167,13 +1155,13 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "React",
          "url": "http://facebook.github.io/react/"
-       }]
+      }]
    }, {
       "title": "Happy Parsing",
       "email": "florent@icangowithout.com",
       "name": "Florent Vilmart",
       "url": "https://github.com/flovilmart",
-     "synopsis": "Parse is a popular platform that greatly simplifies the backend side of web and mobile apps. Florent has been an active user for a while and will quickly get us up to speed on the basics and follow up with power tips and advanced usage.",
+      "synopsis": "Parse is a popular platform that greatly simplifies the backend side of web and mobile apps. Florent has been an active user for a while and will quickly get us up to speed on the basics and follow up with power tips and advanced usage.",
       "links": [{
          "title": "parse-develop",
          "url": "https://github.com/flovilmart/parse-develop"
@@ -1183,7 +1171,6 @@ const MEETUPS_DATA = [{
    "num": 43,
    "title": "Fall",
    "on": "20140909",
-   "singleSession": true,
    "blurb": "Join us this Fall for a cool breeze of fresh Javascript and it's newly minted features.",
    "specialevent": "acquisio-beer.html",
    "speakers": [{
@@ -1191,7 +1178,7 @@ const MEETUPS_DATA = [{
       "email": "ckm2k1@gmail.com",
       "name": "Steve Venzerul",
       "url": "https://github.com/ckm2k1",
-     "synopsis": "The ECMAScript 6 spec brings a host of new features and API goodies to our favourite language. This talk will explore some of the new language constructs and APIs being introduced into Javascript, and which development pains they're designed to alleviate. Lastly, we'll see how we can leverage the features of tomorrow, today!",
+      "synopsis": "The ECMAScript 6 spec brings a host of new features and API goodies to our favourite language. This talk will explore some of the new language constructs and APIs being introduced into Javascript, and which development pains they're designed to alleviate. Lastly, we'll see how we can leverage the features of tomorrow, today!",
       "links": [{
          "title": "The Official ECMAScript 6 Spec",
          "url": "https://people.mozilla.org/~jorendorff/es6-draft.html"
@@ -1204,7 +1191,6 @@ const MEETUPS_DATA = [{
    "num": 44,
    "title": "Fall",
    "on": "20141014",
-   "singleSession": false,
    "blurb": "Fall is here, it's time for sweaters, wooly socks, and warm cup of Javascript.",
    "specialevent": false,
    "speakers": [{
@@ -1212,7 +1198,7 @@ const MEETUPS_DATA = [{
       "email": "m.vezina@la-grange.ca",
       "name": "Martin Vézina",
       "url": "https://github.com/mgvez",
-     "synopsis": "Greensock Animation Platform is an amazing library used to design high performance animations for the web. Its flexibility makes it possible to construct complex animation sequences and integrate them into your workflow with mimimum effort, and its simplicity bridges the gap between the motion designer and the programmer.",
+      "synopsis": "Greensock Animation Platform is an amazing library used to design high performance animations for the web. Its flexibility makes it possible to construct complex animation sequences and integrate them into your workflow with mimimum effort, and its simplicity bridges the gap between the motion designer and the programmer.",
       "links": [{
          "title": "Greensock Animations",
          "url": "https://greensock.com/"
@@ -1225,7 +1211,6 @@ const MEETUPS_DATA = [{
    "num": 45,
    "title": "Cold hands, Warm data",
    "on": "20141111",
-   "singleSession": false,
    "blurb": "This month: Chrome extensions and Web Components. La présentation Web Components est une collaboration avec nos amis de <a href=\"http://gtugmontreal.blogspot.ca\">GDG Montreal</a>.",
    "specialevent": false,
    "speakers": [{
@@ -1253,7 +1238,6 @@ const MEETUPS_DATA = [{
    "num": 46,
    "title": "WebVR, brings you the holidays, in 3D!",
    "on": "20141209",
-   "singleSession": true,
    "blurb": "Join us this holiday season in exploring the link between VR hardware like Oculus Rift and the WebVR spec experimentally implemeted in Chrome and Firefox.",
    "specialevent": false,
    "speakers": [{
@@ -1277,7 +1261,6 @@ const MEETUPS_DATA = [{
    "num": 47,
    "title": "<a href=\"http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html\">Language of the year</a>",
    "on": "20150113",
-   "singleSession": false,
    "blurb": "This month: A bit of Angular and a walk through ES6 modules. Our friends at etelesolv are back with beer and pizza, so come early! Doors open at 18:00.",
    "specialevent": "etelesolv-beer.html",
    "speakers": [{
@@ -1311,7 +1294,6 @@ const MEETUPS_DATA = [{
    "num": 48,
    "title": "Yeoman FTW",
    "on": "20150210",
-   "singleSession": false,
    "blurb": "Join us this month for a great bit of automation with Yeoman. Automate all the things!",
    "specialevent": false,
    "speakers": [{
@@ -1342,7 +1324,6 @@ const MEETUPS_DATA = [{
    "num": 49,
    "title": "Javascript Spring Break",
    "on": "20150310",
-   "singleSession": false,
    "blurb": "Join us this month for a nice dose of functional JS.",
    "specialevent": false,
    "speakers": [{
@@ -1360,7 +1341,6 @@ const MEETUPS_DATA = [{
    "num": 52,
    "title": "RAML + Inker",
    "on": "20150609",
-   "singleSession": false,
    "blurb": "This month: one more acronym you have to pretend to know about and a great new way to deal with email development without pulling your hair out.",
    "speakers": [{
       "title": "RAML: Describe your APIs",
@@ -1371,11 +1351,11 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "RAML",
          "url": "http://raml.org/"
-      },{
+      }, {
          "title": "RAML generated client example",
          "url": "https://github.com/jstoiko/raml-javascript-client"
       }]
-   },{
+   }, {
       "title": "Inker: Rethinking how we manage email development & transactional delivery",
       "email": "cedric.dugas@gmail.com",
       "name": "Cedric Dugas",
@@ -1393,7 +1373,6 @@ const MEETUPS_DATA = [{
    "num": 53,
    "title": "All things EcmaScript 6",
    "on": "20150714",
-   "singleSession": true,
    "blurb": "This month: join us for a scooba dive in the newly approved ES6 features, WebAssembly, ASM.js and what all these buzz words mean for the web.",
    "speakers": [{
       "title": "ES6: Diving Deeper",
@@ -1413,7 +1392,6 @@ const MEETUPS_DATA = [{
    "num": 54,
    "title": "It's all fun and games",
    "on": "20150811",
-   "singleSession": false,
    "blurb": "This month is all about fun, as we dig into some cool frameworks used to build games in JavaScript. Get down with Osman Zeki and music games and take a trip through nostalgia land with Justin Stahlman.",
    "speakers": [{
       "title": "Using Phaser to build a music game",
@@ -1446,7 +1424,6 @@ const MEETUPS_DATA = [{
    "num": 55,
    "title": "Goodbyes / Hellos",
    "on": "20150908",
-   "singleSession": false,
    "blurb": "This will be our last meetup at the Radialpoint location. They have been amazing hosts. <strong>Thank you!</strong><br><br>This month: Package all the things with Webpack. Typed languages are more your type? Try TypeScript.",
    "specialevent": "appdirect-beer.html",
    "speakers": [{
@@ -1474,7 +1451,6 @@ const MEETUPS_DATA = [{
    "num": 56,
    "title": "On React",
    "on": "20151013",
-   "singleSession": false,
    "blurb": "<strong>We have moved!<br>This month, we will be meeting at <a href=\"https://garemtl.com/en/\">La Gare</a></strong><br><br>Our subjects: React, Flux and Redux. Come early to hangout and meet our sponsor, AppDirect. Doors will open at 6pm.",
    "specialevent": "appdirect-beer.html",
    "speakers": [{
@@ -1505,7 +1481,6 @@ const MEETUPS_DATA = [{
    "num": 57,
    "title": "JavaScript & the Internet Of Things",
    "on": "20151110",
-   "singleSession": true,
    "blurb": "<strong>We have moved!<br>This month, we will be meeting at <a href=\"https://garemtl.com/en/\">La Gare</a></strong><br><br>Our subject: JavaScript and the Internet of things. Just when you thought you were safe, JavaScript spreads its tentacles into your hardware. Doors open at 6pm.",
    "specialevent": "intel-beer.html",
    "speakers": [{
@@ -1526,7 +1501,6 @@ const MEETUPS_DATA = [{
    "num": 58,
    "title": "Another year of JavaScript",
    "on": "20151208",
-   "singleSession": false,
    "blurb": "'Server-less' webapps with webtask.io and our yearly retrospective.",
    "specialevent": "roi-beer.html",
    "speakers": [{
@@ -1554,7 +1528,6 @@ const MEETUPS_DATA = [{
    "num": 59,
    "title": "JavaScript Fundamentals: Prototypal Inheritance",
    "on": "20160112",
-   "singleSession": true,
    "blurb": "To kick off the new year, we will be having the first part of a series of JavaScript Fundamentals presentations.",
    "speakers": [{
       "title": "Fundamentals: Prototypal Inheritance",
@@ -1571,7 +1544,6 @@ const MEETUPS_DATA = [{
    "num": 60,
    "title": "Reactive JavaScript",
    "on": "20160209",
-   "singleSession": true,
    "specialevent": "salesfloor-beer.html",
    "blurb": "You've heard the term <i>Reactive programming</i> before. Someone tried to explain it to you; you have no idea what they are talking about. You should come to this meetup.",
    "speakers": [{
@@ -1589,7 +1561,6 @@ const MEETUPS_DATA = [{
    "num": 61,
    "title": "Open Source - Parse Server",
    "on": "20160308",
-   "singleSession": true,
    "specialevent": "clemex-beer.html",
    "blurb": "Spring is in the air, and parse-server is open source. Both of those things are awesome but we can't give a talk about spring.",
    "speakers": [{
@@ -1607,7 +1578,6 @@ const MEETUPS_DATA = [{
    "num": 62,
    "title": "Modern JavaScript",
    "on": "20160412",
-   "singleSession": true,
    "blurb": "Join us for a demonstartion of Turbulent's stunningly beautiful, explorable galactic world!",
    "speakers": [{
       "title": "Star Citizen Starmap: A Journey through a WebGL project",
@@ -1630,7 +1600,6 @@ const MEETUPS_DATA = [{
    "num": 63,
    "title": "TestingCeption",
    "on": "20160510",
-   "singleSession": true,
    "specialevent": "smooch-beer.html",
    "blurb": "Join us for a training session with Arnaud Buchholz performing some magic with Sinon.JS.",
    "speakers": [{
@@ -1651,7 +1620,6 @@ const MEETUPS_DATA = [{
    "num": 64,
    "title": "3D->2D, Websockets, oh my!",
    "on": "20160614",
-   "singleSession": false,
    "specialevent": false,
    "blurb": "Frederic will tell us about all things websockets, and Martin will show us what it takes to go from 3D to 2D. Don't blink, or you'll miss it!",
    "speakers": [{
@@ -1682,7 +1650,6 @@ const MEETUPS_DATA = [{
    "num": 65,
    "title": "Vues and Unix Pipes, what do they have in common?",
    "on": "20160713",
-   "singleSession": false,
    "specialevent": false,
    "blurb": "Join us for another edition of js-montreal with Lichen on Vue.js and Ruy on his tool, iPipeTo.",
    "speakers": [{
@@ -1713,7 +1680,6 @@ const MEETUPS_DATA = [{
    "num": 66,
    "title": "Global Javascript",
    "on": "20160809",
-   "singleSession": false,
    "specialevent": "shutterstock-beer.html",
    "blurb": "Looks like global warming is a thing. Maybe JavaScript can help?",
    "speakers": [{
@@ -1747,7 +1713,6 @@ const MEETUPS_DATA = [{
    "num": 67,
    "title": "",
    "on": "20160913",
-   "singleSession": false,
    "specialevent": "ssense-beer.html",
    "blurb": "Autumn is here, it's time for hoodies, comfy jackets and long sleeves. Javascript makes for a great blanket.",
    "speakers": [{
@@ -1778,7 +1743,6 @@ const MEETUPS_DATA = [{
    "num": 68,
    "title": "",
    "on": "20161011",
-   "singleSession": true,
    "specialevent": "ubisoft-beer.html",
    "blurb": "Let's take a drive through Javascript, the frameworks are turning beautiful colors this time of year.",
    "speakers": [{
@@ -1799,7 +1763,6 @@ const MEETUPS_DATA = [{
    "num": 69,
    "title": "React Native, 3D",
    "on": "20161108",
-   "singleSession": false,
    "blurb": "The Javascript invasion continues: Native applications and 3D",
    "speakers": [{
       "title": "Introduction to React Native",
@@ -1811,7 +1774,7 @@ const MEETUPS_DATA = [{
          "title": "React Native",
          "url": "https://facebook.github.io/react-native/"
       }]
-   },{
+   }, {
       "title": "3D on the Web",
       "email": "denis.grigor@autodesk.com",
       "name": "Denis Grigor",
@@ -1823,7 +1786,6 @@ const MEETUPS_DATA = [{
    "num": 70,
    "title": "2016 in Summary",
    "on": "20161213",
-   "singleSession": true,
    "blurb": "Join us for a review of an amazing year of Javascript and a little exploration of Node's internals.",
    "speakers": [{
       "title": "Hacking on Node for fun and profit",
@@ -1846,7 +1808,6 @@ const MEETUPS_DATA = [{
    "num": 71,
    "title": "The year of JavaScript",
    "on": "20170110",
-   "singleSession": true,
    "blurb": "Join us in opening 2017 with a fresh look at Typescript through the eyes of a Ubisoft framework.",
    "speakers": [{
       "title": "From desktop to web app using Typescript",
@@ -1866,7 +1827,6 @@ const MEETUPS_DATA = [{
    "num": 72,
    "title": "ES2017 and Beyond",
    "on": "20170214",
-   "singleSession": false,
    "blurb": "JavaScript is the language of Love. It's love knows no types.",
    "speakers": [{
       "title": "How Async/Await will change JavaScript forever",
@@ -1893,7 +1853,6 @@ const MEETUPS_DATA = [{
    "num": 73,
    "title": "React and CPUs",
    "on": "20170314",
-   "singleSession": false,
    "blurb": "What do CPU profiling and React have in common? js-montreal of course.",
    "speakers": [{
       "title": "Demystifying CPU Profiling in Node.js",
@@ -1920,7 +1879,6 @@ const MEETUPS_DATA = [{
    "num": 75,
    "title": "The Wild",
    "on": "20170509",
-   "singleSession": true,
    "blurb": "Is ES6 considered May flowers? Yes, we'll go with that.",
    "speakers": [{
       "title": "ES6 From the Wild: An Exploration",
@@ -1934,7 +1892,6 @@ const MEETUPS_DATA = [{
    "num": 76,
    "title": "React and JS Conf EU Summary",
    "on": "20170613",
-   "singleSession": false,
    "blurb": "The forecast for tonight, cool, cool javascript.",
    "speakers": [{
       "title": "An Introduction to React Storybook",
@@ -1970,7 +1927,6 @@ const MEETUPS_DATA = [{
    "num": 77,
    "title": "React and JS Conf EU Summary",
    "on": "20170613",
-   "singleSession": false,
    "blurb": "The forecast for tonight, cool, cool javascript.",
    "speakers": [{
       "title": "An Introduction to React Storybook",
@@ -2006,7 +1962,6 @@ const MEETUPS_DATA = [{
    "num": 78,
    "title": "High Season",
    "on": "20170711",
-   "singleSession": false,
    "specialevent": "shutterstock-beer.html",
    "blurb": "What do 3D cars and Compactr have in common? JS-Montreal of course.",
    "speakers": [{
@@ -2028,7 +1983,6 @@ const MEETUPS_DATA = [{
    "num": 79,
    "title": "What are you on about Javascript??",
    "on": "20170808",
-   "singleSession": true,
    "blurb": "So we all know JS has some quirks, but can you tell why and how they come about? Let's ask the audience!",
    "speakers": [{
       "title": "WTF JS -- Explained",
@@ -2048,7 +2002,6 @@ const MEETUPS_DATA = [{
    "num": 80,
    "title": "React'in",
    "on": "20170913",
-   "singleSession": true,
    "specialevent": "sofdesk-beer.html",
    "blurb": "React Native brings Javascript goodies to the native app world. Let's explore how to get started with it.",
    "speakers": [{
@@ -2069,7 +2022,6 @@ const MEETUPS_DATA = [{
    "num": 81,
    "title": "Art imitating life",
    "on": "20171010",
-   "singleSession": true,
    "blurb": "Art and Javascript, sitting in a tree...",
    "speakers": [{
       "title": "Using JavaScript and other web technologies, to create a physical public art installation, that produce kindness and compassion.",
@@ -2092,7 +2044,6 @@ const MEETUPS_DATA = [{
    "num": 82,
    "title": "Headless, progressive Javascript. Like a Zombie.",
    "on": "20171114",
-   "singleSession": false,
    "blurb": "Testing with headless Chrome and Progressive web apps.",
    "speakers": [{
       "title": "Unsupervised testing with Chrome Headless and Puppeteer",
@@ -2122,7 +2073,6 @@ const MEETUPS_DATA = [{
    "num": 83,
    "title": "Merry JavaScript to everyone!",
    "on": "20171211",
-   "singleSession": false,
    "blurb": "",
    "speakers": [{
       "title": "Down the SVG Rabbit Hole: Optimized Workflow and Advanced SVG Effects",
@@ -2162,7 +2112,6 @@ const MEETUPS_DATA = [{
    "title": "And a Happy New Year",
    "on": "20180109",
    "specialevent": "behaviour-interactive-beer.html",
-   "singleSession": true,
    "blurb": "It's a new year, and new challenges. One of the hardest is building stable, fast and interactive web apps. Join us for a demonstration.",
    "speakers": [{
       "title": "Workbox - a tool for building a Progressive Web Application",
@@ -2183,7 +2132,6 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20180213",
    "specialevent": "glossier-beer.html",
-   "singleSession": true,
    "blurb": "We always talk about JS, but what about everything around it? The hammers, chisels and screwdrivers of programming? What about the little things that make dev easier, and more pleasant, less swear-y? Let's find out.",
    "speakers": [{
       "title": "Modern Dev Setup",
@@ -2210,7 +2158,6 @@ const MEETUPS_DATA = [{
    "title": "Security, Web Workers, oh my!",
    "on": "20180312",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "JavaScript March'es on. I'll show myself out...",
    "speakers": [{
       "title": "Secure Your Single Page Application With Auth0",
@@ -2241,7 +2188,6 @@ const MEETUPS_DATA = [{
    "title": "Spring is in the air!",
    "on": "20180410",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "Time to shake the winter cobwebs and pour a nice cup of JavaScript to get the season going.",
    "speakers": [{
       "title": "Maintaining React Components",
@@ -2272,7 +2218,6 @@ const MEETUPS_DATA = [{
    "title": "Spring is in the air!",
    "on": "20180508",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "Spring is in the air, and little JavaScript flowers are blooming.",
    "speakers": [{
       "title": "Coding Strategy as a Rookie",
@@ -2287,7 +2232,6 @@ const MEETUPS_DATA = [{
    "title": "Get ready to generate!",
    "on": "20180612",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "Genrators and security, a wonderful combination.",
    "speakers": [{
       "title": "The Power of Generators",
@@ -2327,7 +2271,6 @@ const MEETUPS_DATA = [{
    "title": "Summer of Javascript",
    "on": "20180710",
    "specialevent": "invue-beer.html",
-   "singleSession": true,
    "blurb": "Generators, but... async this time.",
    "speakers": [{
       "title": "Async Generators - Looking at the ES2018 Spec",
@@ -2354,7 +2297,6 @@ const MEETUPS_DATA = [{
    "title": "Heat of Javascript",
    "on": "20180814",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "All about the optimizations today. Memoization, network performance, lots of 'zations to go around.",
    "speakers": [{
       "title": "Network optimizations 101",
@@ -2376,7 +2318,6 @@ const MEETUPS_DATA = [{
    "title": "Fall'in in love with Javascript",
    "on": "20180911",
    "specialevent": false,
-   "singleSession": false,
    "blurb": "Syntax sugar and React-Native. Makes for excellent JS-Tea.",
    "speakers": [{
       "title": "No sugar please: a tearing down of abstractions",
@@ -2403,378 +2344,361 @@ const MEETUPS_DATA = [{
       }]
    }]
 }, {
-  "num": 93,
-  "title": "<-- Insert Halloween JavaScript Pun Here -->",
-  "on": "20181009",
-  "specialevent": false,
-  "singleSession": false,
-  "blurb": "Meet the future of static websites, and finally learn how authentication works.",
-  "speakers": [{
-     "title": "Authenticated Systems Workshop",
-     "email": "gina@cesine.ca",
-     "name": "Gina Chiodo",
-     "url": "https://gina.cesine.ca/",
-     "synopsis": "In this talk we will go over a few ways you can implement authentication (including offline authentication strategies) and then dive into some code for both a server and a client which you can adapt to suit your own app.",
-     "links": [{
-        "title": "Authenticated Systems Workshop (Github)",
-        "url": "https://github.com/cesine/authenticated-systems-workshop"
-     }]
-  }, {
-     "title": "Gatsby!",
-     "email": "robin@millette.info",
-     "name": "Robin Millette",
-     "url": "http://robin.millette.info/",
-     "synopsis": "Get to know more about the basics of using Gatsby with Robin. He is going to use our own (pretty bad!) js-montreal website as an example, as well his own Bottin de Developpeurs project",
-     "links": [{
-        "title": "Rollodevs: Your locally sourced developer directory",
-        "url": "http://dev.rollodeqc.com/en/"
-     }]
-  }]
+   "num": 93,
+   "title": "<-- Insert Halloween JavaScript Pun Here -->",
+   "on": "20181009",
+   "specialevent": false,
+   "blurb": "Meet the future of static websites, and finally learn how authentication works.",
+   "speakers": [{
+      "title": "Authenticated Systems Workshop",
+      "email": "gina@cesine.ca",
+      "name": "Gina Chiodo",
+      "url": "https://gina.cesine.ca/",
+      "synopsis": "In this talk we will go over a few ways you can implement authentication (including offline authentication strategies) and then dive into some code for both a server and a client which you can adapt to suit your own app.",
+      "links": [{
+         "title": "Authenticated Systems Workshop (Github)",
+         "url": "https://github.com/cesine/authenticated-systems-workshop"
+      }]
+   }, {
+      "title": "Gatsby!",
+      "email": "robin@millette.info",
+      "name": "Robin Millette",
+      "url": "http://robin.millette.info/",
+      "synopsis": "Get to know more about the basics of using Gatsby with Robin. He is going to use our own (pretty bad!) js-montreal website as an example, as well his own Bottin de Developpeurs project",
+      "links": [{
+         "title": "Rollodevs: Your locally sourced developer directory",
+         "url": "http://dev.rollodeqc.com/en/"
+      }]
+   }]
 }, {
-  "num": 94,
-  "title": "Can't wait to see someone come up with a Heater.js lib to keep warm in the winter.",
-  "on": "20181112",
-  "specialevent": false,
-  "singleSession": false,
-  "blurb": "",
-  "speakers": [{
-     "title": "Intro to feathers.js",
-     "email": "roy@shakepay.co",
-     "name": "Roy Breidi",
-     "url": "roy@shakepay.co",
-     "synopsis": "Roy will show us a structured demo for an incremental approach to building-from-scratch your first server-side app up within minutes.",
-     "links": [{
-        "title": "feathers.js",
-        "url": "https://feathersjs.com/"
-     }]
-  }]
+   "num": 94,
+   "title": "Can't wait to see someone come up with a Heater.js lib to keep warm in the winter.",
+   "on": "20181112",
+   "specialevent": false,
+   "blurb": "",
+   "speakers": [{
+      "title": "Intro to feathers.js",
+      "email": "roy@shakepay.co",
+      "name": "Roy Breidi",
+      "url": "roy@shakepay.co",
+      "synopsis": "Roy will show us a structured demo for an incremental approach to building-from-scratch your first server-side app up within minutes.",
+      "links": [{
+         "title": "feathers.js",
+         "url": "https://feathersjs.com/"
+      }]
+   }]
 }, {
-  "num": 95,
-  "title": "ES2019 for president!",
-  "on": "20181211",
-  "specialevent": "invue-beer.html",
-  "singleSession": false,
-  "blurb": "Another year goes by, another js framework is created, another framework-considered-harmful blogpost is written, and the world keeps going 'round.",
-  "speakers": [{
-     "title": "Serverless and Javascript",
-     "email": "shannonlal@hotmail.com",
-     "name": "Shannon Lal",
-     "url": "shannonlal@hotmail.com",
-     "synopsis": "Over the last 3 years InVue has been using Javascript and Serverless technologies across multiple products. We will be providing an overview of Serverless and Javascript as well as talking about some of the technical challenges and advantages that it brings.",
-     "links": []
-  }, {
-     "title": "React Cassette",
-     "email": "therealbenwiley@gmail.com",
-     "name": "Ben Wiley",
-     "url": "therealbenwiley@gmail.com",
-     "synopsis": "Ben will tell us about Cassette, a react-based lib which provides a zero-config component that is a video/audio player for the web. It also provides a React Context-based API that manages media state for your playlist so you can write custom media player UI without having to think about the internals.",
-     "links": [{
-        "title": "Cassette",
-        "url": "https://benwiley4000.github.io/cassette/styleguide/"
-     }]
-  }]
+   "num": 95,
+   "title": "ES2019 for president!",
+   "on": "20181211",
+   "specialevent": "invue-beer.html",
+   "blurb": "Another year goes by, another js framework is created, another framework-considered-harmful blogpost is written, and the world keeps going 'round.",
+   "speakers": [{
+      "title": "Serverless and Javascript",
+      "email": "shannonlal@hotmail.com",
+      "name": "Shannon Lal",
+      "url": "shannonlal@hotmail.com",
+      "synopsis": "Over the last 3 years InVue has been using Javascript and Serverless technologies across multiple products. We will be providing an overview of Serverless and Javascript as well as talking about some of the technical challenges and advantages that it brings.",
+      "links": []
+   }, {
+      "title": "React Cassette",
+      "email": "therealbenwiley@gmail.com",
+      "name": "Ben Wiley",
+      "url": "therealbenwiley@gmail.com",
+      "synopsis": "Ben will tell us about Cassette, a react-based lib which provides a zero-config component that is a video/audio player for the web. It also provides a React Context-based API that manages media state for your playlist so you can write custom media player UI without having to think about the internals.",
+      "links": [{
+         "title": "Cassette",
+         "url": "https://benwiley4000.github.io/cassette/styleguide/"
+      }]
+   }]
 }, {
-  "num": 96,
-  "title": "Happy New JavaScript Year to everyone!",
-  "on": "20190108",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "Let's kick off the new year with some cool talks on OPA and utopian.io.",
-  "speakers": [{
-     "title": "From OPA to Node-UI5",
-     "email": "arnaud.buchholz@gmail.com",
-     "name": "Arnaud Buchholz",
-     "url": "arnaud.buchholz@gmail.com",
-     "synopsis": "OpenUI5 is a UI ramework that comes with test automation tools (OPA) and in particular with a component capable of mocking ODATA calls (MockServer). This component works in the browser but with the help of jsdom it is possible to embed it in a NodeJS server using express.",
-     "links": []
-  }, {
-     "title": "Utopian.IO",
-     "email": "gregory.luneau@gmail.com",
-     "name": "Gregory Luneau",
-     "url": "gregory.luneau@gmail.com",
-     "synopsis": "I'll be talking about Utopian.io and how they rewards developers by contributing to your favorite Open Source projects like any js github projects.",
-     "links": [{
-        "title": "utopian.io",
-        "url": "https://github.com/utopian-io/v2.utopian.io"
-     }]
-  }]
+   "num": 96,
+   "title": "Happy New JavaScript Year to everyone!",
+   "on": "20190108",
+   "specialevent": null,
+   "blurb": "Let's kick off the new year with some cool talks on OPA and utopian.io.",
+   "speakers": [{
+      "title": "From OPA to Node-UI5",
+      "email": "arnaud.buchholz@gmail.com",
+      "name": "Arnaud Buchholz",
+      "url": "arnaud.buchholz@gmail.com",
+      "synopsis": "OpenUI5 is a UI ramework that comes with test automation tools (OPA) and in particular with a component capable of mocking ODATA calls (MockServer). This component works in the browser but with the help of jsdom it is possible to embed it in a NodeJS server using express.",
+      "links": []
+   }, {
+      "title": "Utopian.IO",
+      "email": "gregory.luneau@gmail.com",
+      "name": "Gregory Luneau",
+      "url": "gregory.luneau@gmail.com",
+      "synopsis": "I'll be talking about Utopian.io and how they rewards developers by contributing to your favorite Open Source projects like any js github projects.",
+      "links": [{
+         "title": "utopian.io",
+         "url": "https://github.com/utopian-io/v2.utopian.io"
+      }]
+   }]
 }, {
-  "num": 97,
-  "title": "Happy Valentine's!",
-  "on": "20190212",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "Give some JavaScript to your significant others, even if it's just your cat.",
-  "speakers": [{
-     "title": "Vers l'infini... et l'event loop!",
-     "email": "marvin.frachet@gmail.com",
-     "name": "Marvin Frachet",
-     "url": "marvin.frachet@gmail.com",
-     "synopsis": "Ce talk a pour objectif de présenter comment j'ai découvert et compris le fonctionnement de l'event loop. A la fin de ce dernier, vous devriez être en mesure de comprendre les fonctionnements sous jacent des fonctionnalités asynchrones de JavaScript.",
-     "links": []
-  }]
+   "num": 97,
+   "title": "Happy Valentine's!",
+   "on": "20190212",
+   "specialevent": null,
+   "blurb": "Give some JavaScript to your significant others, even if it's just your cat.",
+   "speakers": [{
+      "title": "Vers l'infini... et l'event loop!",
+      "email": "marvin.frachet@gmail.com",
+      "name": "Marvin Frachet",
+      "url": "marvin.frachet@gmail.com",
+      "synopsis": "Ce talk a pour objectif de présenter comment j'ai découvert et compris le fonctionnement de l'event loop. A la fin de ce dernier, vous devriez être en mesure de comprendre les fonctionnements sous jacent des fonctionnalités asynchrones de JavaScript.",
+      "links": []
+   }]
 }, {
-  "num": 98,
-  "title": "JavaSpring",
-  "on": "20190312",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "Like fashion, JavaScript has a spring collection, and it's brought to you by js-montreal.",
-  "speakers": [{
-     "title": "Subclassing in ES6",
-     "email": "arnaud.buchholz@gmail.com",
-     "name": "Arnaud Buchholz",
-     "url": "arnaud.buchholz@gmail.com",
-     "synopsis": "Subclassing an ES6 class should be easy, right? What if one want to mix an ES6 class with a non-ES6 one? In this talk, I propose to explore the implementation of classes in JavaScript and see how they can be combined. (No transpiler was harmed during the preparation of this talk)",
-     "links": [{
-        "title": "Arnaud's Blog",
-        "url": "http://gpf-js.blogspot.com/"
-     }, {
-        "title": "Article about this talk",
-        "url": "2019/01/how-i-learned-from-crazy-idea.html"
-     }]
-  }]
+   "num": 98,
+   "title": "JavaSpring",
+   "on": "20190312",
+   "specialevent": null,
+   "blurb": "Like fashion, JavaScript has a spring collection, and it's brought to you by js-montreal.",
+   "speakers": [{
+      "title": "Subclassing in ES6",
+      "email": "arnaud.buchholz@gmail.com",
+      "name": "Arnaud Buchholz",
+      "url": "arnaud.buchholz@gmail.com",
+      "synopsis": "Subclassing an ES6 class should be easy, right? What if one want to mix an ES6 class with a non-ES6 one? In this talk, I propose to explore the implementation of classes in JavaScript and see how they can be combined. (No transpiler was harmed during the preparation of this talk)",
+      "links": [{
+         "title": "Arnaud's Blog",
+         "url": "http://gpf-js.blogspot.com/"
+      }, {
+         "title": "Article about this talk",
+         "url": "2019/01/how-i-learned-from-crazy-idea.html"
+      }]
+   }]
 }, {
-  "num": 99,
-  "title": "JavaSpring",
-  "on": "20190409",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "JavaScript is like chocolate cake, delicious, rich and tasty, but too much will give you a stomach ache.",
-  "speakers": [{
-     "title": "Modernising plotly.js",
-     "email": "etienne@plot.ly",
-     "name": "Étienne Tétreault-Pinard",
-     "url": "etienne@plot.ly",
-     "synopsis": "Presented by: Etienne, Antoine and Mojtaba - Plotly's graphing library plotly.js has been around for 6 years, a lot of things has happened in JS-land since then. The talk will start by a brief introduction on plotly.js, its ecosystem and its team. We will then focus on the challenges we've had to face to adapt our API for React wrappers, mainly react-plotly.js.",
-     "links": [{
-        "title": "Plotly",
-        "url": "https://plot.ly/"
-     }, {
-        "title": "React Plotly",
-        "url": "https://github.com/plotly/react-plotly.js"
-     }]
-  }, {
-     "title": "Gitgraph.js",
-     "email": "nicolascarlo.espeon@gmail.com",
-     "name": "Nicolas Carlo",
-     "url": "nicolascarlo.espeon@gmail.com",
-     "synopsis": "Gitgraph.js is an open-source library that allows you to draw git graphs using a JavaScript API. This talk will explore the inner details of building such a project. I will talk about: open-source, monorepos, SVG rendering, React/Angular adapters and git tricks.",
-     "links": [{
-        "title": "Gitgraph.js",
-        "url": "http://gitgraphjs.com/"
-     }, {
-        "title": "Talk and Slides",
-        "url": "https://skillsmatter.com/conferences/11077-fullstack-nyc-2019-the-conference-on-javascript-node-and-internet-of-things#program"
-     }]
-  }]
+   "num": 99,
+   "title": "JavaSpring",
+   "on": "20190409",
+   "specialevent": null,
+   "blurb": "JavaScript is like chocolate cake, delicious, rich and tasty, but too much will give you a stomach ache.",
+   "speakers": [{
+      "title": "Modernising plotly.js",
+      "email": "etienne@plot.ly",
+      "name": "Étienne Tétreault-Pinard",
+      "url": "etienne@plot.ly",
+      "synopsis": "Presented by: Etienne, Antoine and Mojtaba - Plotly's graphing library plotly.js has been around for 6 years, a lot of things has happened in JS-land since then. The talk will start by a brief introduction on plotly.js, its ecosystem and its team. We will then focus on the challenges we've had to face to adapt our API for React wrappers, mainly react-plotly.js.",
+      "links": [{
+         "title": "Plotly",
+         "url": "https://plot.ly/"
+      }, {
+         "title": "React Plotly",
+         "url": "https://github.com/plotly/react-plotly.js"
+      }]
+   }, {
+      "title": "Gitgraph.js",
+      "email": "nicolascarlo.espeon@gmail.com",
+      "name": "Nicolas Carlo",
+      "url": "nicolascarlo.espeon@gmail.com",
+      "synopsis": "Gitgraph.js is an open-source library that allows you to draw git graphs using a JavaScript API. This talk will explore the inner details of building such a project. I will talk about: open-source, monorepos, SVG rendering, React/Angular adapters and git tricks.",
+      "links": [{
+         "title": "Gitgraph.js",
+         "url": "http://gitgraphjs.com/"
+      }, {
+         "title": "Talk and Slides",
+         "url": "https://skillsmatter.com/conferences/11077-fullstack-nyc-2019-the-conference-on-javascript-node-and-internet-of-things#program"
+      }]
+   }]
 }, {
-  "num": 100,
-  "title": "JavaSpring",
-  "on": "20190514",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "JavaScript, what is it good for? Absolutely everything!",
-  "speakers": [{
-     "title": "React -- Refs, Hooks and Contexts",
-     "email": "ckm2k1@gmail.com",
-     "name": "Steve Venzerul",
-     "url": "ckm2k1@gmail.com",
-     "synopsis": "Let's look at some often misused, misunderstood and generally missed features of React. Oh and also the new hooks API, which is awesome.",
-     "links": [{
-        "title": "React Docs",
-        "url": "https://reactjs.org/docs/getting-started.html"
-     }]
-  }]
+   "num": 100,
+   "title": "JavaSpring",
+   "on": "20190514",
+   "specialevent": null,
+   "blurb": "JavaScript, what is it good for? Absolutely everything!",
+   "speakers": [{
+      "title": "React -- Refs, Hooks and Contexts",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "Let's look at some often misused, misunderstood and generally missed features of React. Oh and also the new hooks API, which is awesome.",
+      "links": [{
+         "title": "React Docs",
+         "url": "https://reactjs.org/docs/getting-started.html"
+      }]
+   }]
 }, {
-  "num": 101,
-  "title": "JavaSummer",
-  "on": "20190611",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "You know it's cold when Hydro-Quebec is making <a href='https://twitter.com/hydroquebec/status/1135547336413855745'>winter jokes</a>",
-  "speakers": [{
-     "title": "Testing tools and best practices",
-     "email": "kevinb7@gmail.com",
-     "name": "Kevin Barabash",
-     "url": "kevinb7@gmail.com",
-     "synopsis": "This talk will the following topics: test hierarchy, AAA testing, jest, enzyme, general best practices for testing as well as specific best practices for jest, async code, component testing, and testing GraphQL components.",
-     "links": [{
-        "title": "Jest",
-        "url": "https://github.com/facebook/jest"
-     }, {
-        "title": "GraphQL",
-        "url": "https://github.com/graphql/graphql-spec"
-     }]
-  }]
+   "num": 101,
+   "title": "JavaSummer",
+   "on": "20190611",
+   "specialevent": null,
+   "blurb": "You know it's cold when Hydro-Quebec is making <a href='https://twitter.com/hydroquebec/status/1135547336413855745'>winter jokes</a>",
+   "speakers": [{
+      "title": "Testing tools and best practices",
+      "email": "kevinb7@gmail.com",
+      "name": "Kevin Barabash",
+      "url": "kevinb7@gmail.com",
+      "synopsis": "This talk will the following topics: test hierarchy, AAA testing, jest, enzyme, general best practices for testing as well as specific best practices for jest, async code, component testing, and testing GraphQL components.",
+      "links": [{
+         "title": "Jest",
+         "url": "https://github.com/facebook/jest"
+      }, {
+         "title": "GraphQL",
+         "url": "https://github.com/graphql/graphql-spec"
+      }]
+   }]
 }, {
-  "num": 102,
-  "title": "javascript-ness",
-  "on": "20190709",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "The summer is finally here, so let's discuss the latest hotness in JS, new global objects.",
-  "speakers": [{
-     "title": "Tales From Prod: How I learnt to stop worrying and love the BigInt",
-     "email": "ckm2k1@gmail.com",
-     "name": "Steve Venzerul",
-     "url": "ckm2k1@gmail.com",
-     "synopsis": "This is a story that connects strings, redis, 64bit integers, postgres, real-time car data and modern APIs, and by extension, how I struggled for 3 days to write a microservice that works correctly.",
-     "links": [{
-        "title": "V8 -BigInt",
-        "url": "https://v8.dev/blog/bigint"
-     }]
-  }]
+   "num": 102,
+   "title": "javascript-ness",
+   "on": "20190709",
+   "specialevent": null,
+   "blurb": "The summer is finally here, so let's discuss the latest hotness in JS, new global objects.",
+   "speakers": [{
+      "title": "Tales From Prod: How I learnt to stop worrying and love the BigInt",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "ckm2k1@gmail.com",
+      "synopsis": "This is a story that connects strings, redis, 64bit integers, postgres, real-time car data and modern APIs, and by extension, how I struggled for 3 days to write a microservice that works correctly.",
+      "links": [{
+         "title": "V8 -BigInt",
+         "url": "https://v8.dev/blog/bigint"
+      }]
+   }]
 }, {
-  "num": 103,
-  "title": "",
-  "on": "20190813",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "Just a quickly as it came, summer is already standing by the door, ready to leave. Before it does, let's enjoy a warm cup of JS.",
-  "speakers": [{
-     "title": "Reserve - Lightweight HTTP Server",
-     "email": "arnaud.buchholz@gmail.com",
-     "name": "Arnaud Buchholz",
-     "url": "arnaud.buchholz@gmail.com",
-     "synopsis": "Arnaud will present reserve, a lightweight web server statically configurable with regular expressions. It can also be embedded and extended.",
-     "links": [{
-        "title": "Library Github",
-        "url": "https://github.com/ArnaudBuchholz/reserve"
-     }]
-  }]
+   "num": 103,
+   "title": "",
+   "on": "20190813",
+   "specialevent": null,
+   "blurb": "Just a quickly as it came, summer is already standing by the door, ready to leave. Before it does, let's enjoy a warm cup of JS.",
+   "speakers": [{
+      "title": "Reserve - Lightweight HTTP Server",
+      "email": "arnaud.buchholz@gmail.com",
+      "name": "Arnaud Buchholz",
+      "url": "arnaud.buchholz@gmail.com",
+      "synopsis": "Arnaud will present reserve, a lightweight web server statically configurable with regular expressions. It can also be embedded and extended.",
+      "links": [{
+         "title": "Library Github",
+         "url": "https://github.com/ArnaudBuchholz/reserve"
+      }]
+   }]
 }, {
-  "num": 104,
-  "title": "",
-  "on": "20190910",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "Autumn is upon us, soon everything will be pumpkins. I wonder if there's a DOM method to pumpkinify() an element.",
-  "speakers": [{
-     "title": "Introduction to D3.js: Why you probably don't need a chart library",
-     "email": "philippe@goarthur.ai",
-     "name": "Philippe Hebert",
-     "url": "philippe@goarthur.ai",
-     "synopsis": "D3.js js the father of visualisation in the browser. Still relevant 8 years after its birth, it is still the standard today. What makes it so powerful? Come explore D3.js with us, from a 10,000 fleet view to a live implementation in React!",
-     "links": [{
-        "title": "D3.js",
-        "url": "https://d3js.org"
-     }]
-  }, {
-     "title": "Hybrid Apps",
-     "email": "florent.letendre@gmail.com",
-     "name": "Florent Letendre",
-     "url": "florent.letendre@gmail.com",
-     "synopsis": "Florent will show us the way of the Hybrid apps using one of his personal projects built with Angular and Ionic.",
-     "links": [{
-        "title": "The App",
-        "url": "https://flo-qtw.firebaseapp.com/ "
-     }]
-  }]
+   "num": 104,
+   "title": "",
+   "on": "20190910",
+   "specialevent": null,
+   "blurb": "Autumn is upon us, soon everything will be pumpkins. I wonder if there's a DOM method to pumpkinify() an element.",
+   "speakers": [{
+      "title": "Introduction to D3.js: Why you probably don't need a chart library",
+      "email": "philippe@goarthur.ai",
+      "name": "Philippe Hebert",
+      "url": "philippe@goarthur.ai",
+      "synopsis": "D3.js js the father of visualisation in the browser. Still relevant 8 years after its birth, it is still the standard today. What makes it so powerful? Come explore D3.js with us, from a 10,000 fleet view to a live implementation in React!",
+      "links": [{
+         "title": "D3.js",
+         "url": "https://d3js.org"
+      }]
+   }, {
+      "title": "Hybrid Apps",
+      "email": "florent.letendre@gmail.com",
+      "name": "Florent Letendre",
+      "url": "florent.letendre@gmail.com",
+      "synopsis": "Florent will show us the way of the Hybrid apps using one of his personal projects built with Angular and Ionic.",
+      "links": [{
+         "title": "The App",
+         "url": "https://flo-qtw.firebaseapp.com/ "
+      }]
+   }]
 }, {
-  "num": 105,
-  "title": "",
-  "on": "20191008",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "Get out your scariest clothes, cause nothing is scarier than new Javascript features...",
-  "speakers": [{
-     "title": "Achieving peace of mind through test coverage",
-     "email": "ruyadorno@gmail.com",
-     "name": "Ruy Adorno",
-     "url": "http://ruyadorno.com",
-     "synopsis": "Ruy is going to share his experience on how to efficiently implement tests that will allow your team members to sleep at night after each release.",
-     "links": [{
-        "title": "Jest",
-        "url": "https://github.com/facebook/jest"
-     }]
-  }, {
-     "title": "Intro to GraphQL",
-     "email": "bruno.carriere@gmail.com",
-     "name": "Bruno Carriere",
-     "url": "bruno.carriere@gmail.com",
-     "synopsis": "Bruno will show us the goodiness of GraphQL and how it works well as an api gateway/backend-for-frontends in a microservice architecture.",
-     "links": [{
-        "title": "GraphQL",
-        "url": "https://graphql.org"
-     }]
-  }]
+   "num": 105,
+   "title": "",
+   "on": "20191008",
+   "specialevent": null,
+   "blurb": "Get out your scariest clothes, cause nothing is scarier than new Javascript features...",
+   "speakers": [{
+      "title": "Achieving peace of mind through test coverage",
+      "email": "ruyadorno@gmail.com",
+      "name": "Ruy Adorno",
+      "url": "http://ruyadorno.com",
+      "synopsis": "Ruy is going to share his experience on how to efficiently implement tests that will allow your team members to sleep at night after each release.",
+      "links": [{
+         "title": "Jest",
+         "url": "https://github.com/facebook/jest"
+      }]
+   }, {
+      "title": "Intro to GraphQL",
+      "email": "bruno.carriere@gmail.com",
+      "name": "Bruno Carriere",
+      "url": "bruno.carriere@gmail.com",
+      "synopsis": "Bruno will show us the goodiness of GraphQL and how it works well as an api gateway/backend-for-frontends in a microservice architecture.",
+      "links": [{
+         "title": "GraphQL",
+         "url": "https://graphql.org"
+      }]
+   }]
 }, {
-  "num": 106,
-  "title": "",
-  "on": "20191112",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "Do you want ReasonML in your JS, cause that's how you get ant...I mean, clean code and functional programming.",
-  "speakers": [{
-     "title": "Type Inference and ReasonML",
-     "email": "tjtaill36@gmail.com",
-     "name": "Troy Taillefer",
-     "url": "tjtaill36@gmail.com",
-     "synopsis": "Troy will show us the performance, flexability and benefits of compiled-to-js languages, specifically ReasonML. It brings type goodness of the likes of TypeScript, but without making the typical compromises required of lanaguages that are strict supersets of JS.",
-     "links": [{
-        "title": "ReasonML",
-        "url": "https://reasonml.github.io"
-     }, {
-        "title": "ReasonML React",
-        "url": "https://github.com/reasonml/reason-react"
-     }]
-  }]
+   "num": 106,
+   "title": "",
+   "on": "20191112",
+   "specialevent": null,
+   "blurb": "Do you want ReasonML in your JS, cause that's how you get ant...I mean, clean code and functional programming.",
+   "speakers": [{
+      "title": "Type Inference and ReasonML",
+      "email": "tjtaill36@gmail.com",
+      "name": "Troy Taillefer",
+      "url": "tjtaill36@gmail.com",
+      "synopsis": "Troy will show us the performance, flexability and benefits of compiled-to-js languages, specifically ReasonML. It brings type goodness of the likes of TypeScript, but without making the typical compromises required of lanaguages that are strict supersets of JS.",
+      "links": [{
+         "title": "ReasonML",
+         "url": "https://reasonml.github.io"
+      }, {
+         "title": "ReasonML React",
+         "url": "https://github.com/reasonml/reason-react"
+      }]
+   }]
 }, {
-  "num": 109,
-  "title": "It's a whole new year!",
-  "on": "20200211",
-  "specialevent": null,
-  "singleSession": true,
-  "blurb": "JS and memory management don't generally have fun, unless you try really hard.",
-  "speakers": [{
-     "title": "What happens when you want your uint8array to be larger than 2.1G?",
-     "email": "therealbenwiley@gmail.com",
-     "name": "Ben Wiley",
-     "url": "therealbenwiley@gmail.com",
-     "synopsis": "Ben will show us what happens when you want more memory than JS is comfortable with and what to do to get it to play ball.",
-     "links": [{
-        "title": "MDN uint8array",
-        "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"
-     }]
-  }]
+   "num": 109,
+   "title": "It's a whole new year!",
+   "on": "20200211",
+   "specialevent": null,
+   "blurb": "JS and memory management don't generally have fun, unless you try really hard.",
+   "speakers": [{
+      "title": "What happens when you want your uint8array to be larger than 2.1G?",
+      "email": "therealbenwiley@gmail.com",
+      "name": "Ben Wiley",
+      "url": "therealbenwiley@gmail.com",
+      "synopsis": "Ben will show us what happens when you want more memory than JS is comfortable with and what to do to get it to play ball.",
+      "links": [{
+         "title": "MDN uint8array",
+         "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array"
+      }]
+   }]
 }, {
-  "num": 110,
-  "title": "Javascript Groove",
-  "on": "20200310",
-  "specialevent": null,
-  "singleSession": false,
-  "blurb": "The holidays always add pounds to our figure, so let's get Svelte to help out and maybe climb some syntax trees too.",
-  "speakers": [{
-     "title": "Lessons from the JavaScript Syntax Tree",
-     "email": "marekz@gmail.com",
-     "name": "Marek Zaluski",
-     "url": "marekz@gmail.com",
-     "synopsis": "The syntax tree is how the JS engine parses your code. Understanding the JS syntax tree can make you a better developer. We're going to look at some lessons we can learn from the syntax tree, including operator precedence and the difference between statements and expressions.",
-     "links": [{
-        "title": "TernJS",
-        "url": "https://ternjs.net/"
-     }, {
-        "title": "AST Explorer",
-        "url": "https://astexplorer.net"
-     }]
-  }, {
-     "title": "Svelte.js",
-     "email": "joshnuss@gmail.com",
-     "name": "Joshua Nussbaum",
-     "url": "joshnuss@gmail.com",
-     "synopsis": "A gentle introduction to Svelte, and how to build a frontend with less code.",
-     "links": [{
-        "title": "Svelte.js",
-        "url": "https://svelte.dev"
-     }]
-  }]
+   "num": 110,
+   "title": "Javascript Groove",
+   "on": "20200310",
+   "specialevent": null,
+   "blurb": "The holidays always add pounds to our figure, so let's get Svelte to help out and maybe climb some syntax trees too.",
+   "speakers": [{
+      "title": "Lessons from the JavaScript Syntax Tree",
+      "email": "marekz@gmail.com",
+      "name": "Marek Zaluski",
+      "url": "marekz@gmail.com",
+      "synopsis": "The syntax tree is how the JS engine parses your code. Understanding the JS syntax tree can make you a better developer. We're going to look at some lessons we can learn from the syntax tree, including operator precedence and the difference between statements and expressions.",
+      "links": [{
+         "title": "TernJS",
+         "url": "https://ternjs.net/"
+      }, {
+         "title": "AST Explorer",
+         "url": "https://astexplorer.net"
+      }]
+   }, {
+      "title": "Svelte.js",
+      "email": "joshnuss@gmail.com",
+      "name": "Joshua Nussbaum",
+      "url": "joshnuss@gmail.com",
+      "synopsis": "A gentle introduction to Svelte, and how to build a frontend with less code.",
+      "links": [{
+         "title": "Svelte.js",
+         "url": "https://svelte.dev"
+      }]
+   }]
 }, {
    "num": 111,
    "title": "Covid? What is that?",
    "on": "20220913",
    "specialevent": null,
-   "singleSession": true,
    "blurb": "We are finally back in person!",
    "speakers": [{
       "title": "Micro-Frontends Madness",
@@ -2792,7 +2716,6 @@ const MEETUPS_DATA = [{
    "title": "Crypto Music and tRPC",
    "on": "20221011",
    "specialevent": null,
-   "singleSession": true,
    "blurb": "In this second post-Covid meetup, we will be doing 2 lightning talk about crypto music and tRPC.",
    "speakers": [{
       "title": "tRPC, end to end typesafe API and frontend",
@@ -2810,7 +2733,6 @@ const MEETUPS_DATA = [{
    "title": "Music built with JS?!",
    "on": "20221108",
    "specialevent": null,
-   "singleSession": true,
    "blurb": "This month we are deep in music, javascript built music that is.",
    "speakers": [{
       "title": "DSP with Elementary Audio",
@@ -2821,8 +2743,7 @@ const MEETUPS_DATA = [{
       "links": [{
          "title": "Elementary Audio Documentation",
          "url": "https://www.elementary.audio/"
-      },
-      {
+      }, {
          "title": "David Github",
          "url": "https://github.com/digitaIfabric"
       }]
@@ -2832,7 +2753,6 @@ const MEETUPS_DATA = [{
    "title": "The holidays are upon us!",
    "on": "20221213",
    "specialevent": null,
-   "singleSession": true,
    "blurb": "Join us one last time this year with a presentation about how Maxime team worked with Twitch to build new engagement experiences for their streamers, with javascript of course.",
    "speakers": [{
       "title": "Codename: Moodland",
@@ -2845,5 +2765,621 @@ const MEETUPS_DATA = [{
          "url": "https://www.behance.net/gallery/152580075/Twitch-Moodland"
       }]
    }]
-}]
-;
+}, {
+   "num": 115,
+   "title": "",
+   "on": "20230110",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 116,
+   "title": "",
+   "on": "20230214",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 117,
+   "title": "",
+   "on": "20230314",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 118,
+   "title": "",
+   "on": "20230411",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 119,
+   "title": "",
+   "on": "20230509",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 120,
+   "title": "",
+   "on": "20230613",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 121,
+   "title": "",
+   "on": "20230711",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 122,
+   "title": "",
+   "on": "20230808",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 123,
+   "title": "",
+   "on": "20230912",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 124,
+   "title": "",
+   "on": "20231010",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 125,
+   "title": "",
+   "on": "20231114",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 126,
+   "title": "",
+   "on": "20231212",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 127,
+   "title": "",
+   "on": "20240109",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 128,
+   "title": "",
+   "on": "20240213",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 129,
+   "title": "",
+   "on": "20240312",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 130,
+   "title": "",
+   "on": "20240409",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 131,
+   "title": "",
+   "on": "20240514",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 132,
+   "title": "",
+   "on": "20240611",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 133,
+   "title": "",
+   "on": "20240709",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 134,
+   "title": "",
+   "on": "20240813",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 135,
+   "title": "",
+   "on": "20240910",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 136,
+   "title": "",
+   "on": "20241008",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 137,
+   "title": "",
+   "on": "20241112",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 138,
+   "title": "",
+   "on": "20241210",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 139,
+   "title": "",
+   "on": "20250114",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 140,
+   "title": "",
+   "on": "20250211",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 141,
+   "title": "",
+   "on": "20250311",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 142,
+   "title": "",
+   "on": "20250408",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 143,
+   "title": "",
+   "on": "20250513",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 144,
+   "title": "",
+   "on": "20250610",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 145,
+   "title": "",
+   "on": "20250708",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 146,
+   "title": "",
+   "on": "20250812",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 147,
+   "title": "",
+   "on": "20250909",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 148,
+   "title": "",
+   "on": "20251014",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 149,
+   "title": "",
+   "on": "20251111",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 150,
+   "title": "",
+   "on": "20251209",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "End of year retrospective",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "https://github.com/ckm2k1",
+      "synopsis": "A recap of 2025",
+      "links": [{
+         "title": "Slides",
+         "url": "https://slides.com/signupskm/js-2023-retrospective-e38885",
+      }]
+   }]
+}, {
+   "num": 151,
+   "title": "",
+   "on": "20260113",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "The LiveView Pattern",
+      "name": "Cleaver Barnes",
+      "url": "",
+      "email": "cleaver.barnes@gmail.com",
+      "synopsis": "The LiveView pattern in its present form originated in the Phoenix Framework, part of the Elixir ecosystem. With the recent discussions of server-side versus client-side rendering, Cleaver thought this was a good time to present on this topic since LiveView falls in-between the two \"sides\".",
+      "links": []
+   }]
+}, {
+   "num": 152,
+   "title": "",
+   "on": "20260210",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "If at first you don't succeed, Trie, Trie again.",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "https://github.com/ckm2k1",
+      "synopsis": "Data structures: Trie",
+      "links": [{
+         "title": "Slides",
+         "url": "https://slides.com/signupskm/strings-how-fuzzy-are-they-83047f",
+      }]
+   }]
+}, {
+   "num": 153,
+   "title": "",
+   "on": "20260310",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "Ilya Gorenburg",
+      "name": "Interesting Browser APIs",
+      "url": "",
+      "email": "ilya.gorenburg@gmail.com",
+      "synopsis": "Ilya will show us some well supported but little known or used browser APIs: Page Visibility, ClipboardItem, Intersection Observer, Resize Observer, Mutation Observer",
+      "links": []
+   }]
+}, {
+   "num": 154,
+   "title": "",
+   "on": "20260414",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "Fed up with YAML? Cook a delicious config soup with a side of Pkl",
+      "name": "Victor N.",
+      "url": "",
+      "email": "vicnktech@pm.me",
+      "synopsis": "Victor will show us the problems with YAML, the PKL language to replace it, and how it can and should be used.",
+      "links": [{
+         "title": "Slides",
+         "url": "https://drive.proton.me/urls/7Z6YYKZHHW#7n7C0QMV0sab"
+      }]
+   }]
+}, {
+   "num": 155,
+   "title": "",
+   "on": "20260512",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "",
+      "name": "",
+      "url": "",
+      "email": "",
+      "synopsis": "",
+      "links": []
+   }]
+}, {
+   "num": 156,
+   "title": "",
+   "on": "20260609",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "How we use LLMs",
+      "email": "ckm2k1@gmail.com",
+      "name": "Steve Venzerul",
+      "url": "https://github.com/ckm2k1",
+      "synopsis": "A showcase of what gets better results from frontier LLMs, and a demo of some of the LLM tools we've been on the job.",
+      "links": []
+   }]
+}, {
+   "num": 157,
+   "title": "",
+   "on": "20260714",
+   "specialevent": null,
+   "blurb": "",
+   "speakers": [{
+      "title": "The LLM Harness",
+      "email": "arnaud.buchholz@gmail.com",
+      "name": "Arnaud Buchholz",
+      "url": "arnaud.buchholz@gmail.com",
+      "synopsis": "In this talk, Arnaud will show us what LLM harnesses are, how they work and some examples.",
+      "links": [{
+         "title": "Slides",
+         "url": "https://arnaudbuchholz.github.io/decks/WUC_LLM_Harness.html#/"
+      }, {
+         "title": "Simple LLM harness example",
+         "url": "https://github.com/ArnaudBuchholz/training-llm-harness"
+      }]
+   }]
+}];
