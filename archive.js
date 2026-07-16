@@ -73,6 +73,37 @@ function buildSpeaker(speaker) {
   return el;
 }
 
+function buildCancelledCard(meetup) {
+  const card = document.createElement("article");
+  card.className = "meetup-card meetup-card-cancelled";
+
+  const header = document.createElement("div");
+  header.className = "meetup-header";
+
+  const title = document.createElement("h2");
+  title.className = "meetup-title";
+  title.textContent = "Cancelled";
+  header.appendChild(title);
+
+  const date = document.createElement("span");
+  date.className = "meetup-date";
+  date.textContent = formatMeetupDate(meetup.on);
+  header.appendChild(date);
+
+  card.appendChild(header);
+
+  const notice = document.createElement("p");
+  notice.className = "meetup-cancelled-notice";
+  if (meetup.title) {
+    notice.innerHTML = meetup.title;
+  } else {
+    notice.textContent = "This meetup did not take place.";
+  }
+  card.appendChild(notice);
+
+  return card;
+}
+
 function buildMeetupCard(meetup) {
   const card = document.createElement("article");
   card.className = "meetup-card";
@@ -131,7 +162,7 @@ function loadArchive() {
   const container = document.getElementById("archive-list");
 
   try {
-    const sorted = [...MEETUPS_DATA].sort((a, b) => b.on.localeCompare(a.on));
+    const sorted = MEETUPS_DATA.filter(meetup => meetup.hide !== true).sort((a, b) => b.on.localeCompare(a.on));
 
     container.innerHTML = "";
     let lastYear = null;
@@ -141,7 +172,7 @@ function loadArchive() {
         container.appendChild(buildYearSeparator(year));
         lastYear = year;
       }
-      container.appendChild(buildMeetupCard(meetup));
+      container.appendChild(meetup.cancelled === true ? buildCancelledCard(meetup) : buildMeetupCard(meetup));
     });
   } catch (err) {
     container.innerHTML = '<p class="archive-loading">Sorry, the archive could not be loaded.</p>';

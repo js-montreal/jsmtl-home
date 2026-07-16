@@ -2770,6 +2770,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230110",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2784,6 +2785,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230214",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2798,6 +2800,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230314",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2812,6 +2815,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230411",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2826,6 +2830,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230509",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2840,6 +2845,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230613",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2854,6 +2860,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230711",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2868,6 +2875,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230808",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2882,6 +2890,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20230912",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2896,6 +2905,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20231010",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2910,6 +2920,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20231114",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2924,6 +2935,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20231212",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2938,6 +2950,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240109",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2952,6 +2965,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240213",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2966,6 +2980,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240312",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2980,6 +2995,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240409",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -2994,6 +3010,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240514",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3008,6 +3025,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240611",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3022,6 +3040,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240709",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3036,6 +3055,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240813",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3050,6 +3070,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20240910",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3064,6 +3085,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20241008",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3078,6 +3100,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20241112",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3092,6 +3115,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20241210",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3106,6 +3130,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250114",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3120,6 +3145,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250211",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3134,6 +3160,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250311",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3148,6 +3175,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250408",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3162,6 +3190,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250513",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3176,6 +3205,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250610",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3190,6 +3220,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250708",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3204,6 +3235,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250812",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3218,6 +3250,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20250909",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3232,6 +3265,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20251014",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3246,6 +3280,7 @@ const MEETUPS_DATA = [{
    "title": "",
    "on": "20251111",
    "specialevent": null,
+   "hide": true,
    "blurb": "",
    "speakers": [{
       "title": "",
@@ -3336,6 +3371,7 @@ const MEETUPS_DATA = [{
    }]
 }, {
    "num": 155,
+   "cancelled": true,
    "title": "",
    "on": "20260512",
    "specialevent": null,
